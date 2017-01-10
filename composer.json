@@ -1,6 +1,6 @@
 {
-  "name": "bartaakos/mouse-manager",
-  "description": "MouseManager",
+  "name": "bartaakos/mice",
+  "description": "mice",
   "minimum-stability": "dev",
   "license": "proprietary",
   "authors": [

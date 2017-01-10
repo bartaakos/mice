@@ -63,7 +63,7 @@ class BackTracker
      * @return bool
      * @throws Exceptions\NotAMouseException
      */
-    public function step($index)
+    private function step($index)
     {
         try {
             $this->mouseManager->handleStep($index);
@@ -78,7 +78,7 @@ class BackTracker
      * @param int $freeSpotIndex
      * @return int[]
      */
-    public function findSpotsToMove($freeSpotIndex)
+    private function findSpotsToMove($freeSpotIndex)
     {
         /** @var int[] $positions */
         $positions = [];
